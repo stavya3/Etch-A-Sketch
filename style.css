@@ -16,7 +16,51 @@ html , body{
     height: 400px;
     border: 2px solid #000;
     position: absolute;
-    left: 40%;
-    top: 30%;
+    left: 35%;
+    top: 45%;
 }
 
+#header{
+    display: flex;
+    /* background-color: red; */
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction:   */
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+#header h2{
+    font-size: 50px;
+    position: absolute;
+    left: 39%;
+    top: 5%;
+}
+#header #buttons{
+    gap: 100px;
+    position: absolute;
+    top: 29%;
+}
+#header p{
+    font-size: 25px;
+    position: absolute;
+    left: 40%;
+    text-transform: uppercase;
+}
+button{
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 4px;
+    margin: 0 7px;
+}
+
+#popup{
+    background-color: #BB2D3B;
+}
+#black{
+    background-color: #5C636A;
+}
+#random{
+    background-color: #FFCA2C;
+}

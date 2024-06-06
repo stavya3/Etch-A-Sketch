@@ -9,17 +9,23 @@
   </head>
   <body>
     
+    <div id="header">
+      <h2>Etch-A-Sketch</h2>
 
+      <div id="buttons">
+        <button id="popup">Size</button>
+        <button id="black" onclick="setColor('black')">Black</button>
+        <button id="random" onclick="setColor('random')">Random</button>
+        <button onclick="resetBoard()">Reset</button>
+      </div>
+      
+
+      <p id="message"></p>
+      <p id="draw"></p>
+    </div>
     <div class="container"></div>
-    <button id="popup">
-        Danger
-    </button>
-    <button onclick="setColor('black')">Black</button>
-    <button onclick="setColor('random')">Random</button>
-    <button onclick="resetBoard()">Reset</button>
-
-    <p id="message"></p>
-    <p id="draw"></p>
+    
+    
     <script src="script.js"></script>
   </body>
 </html>
